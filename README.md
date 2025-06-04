@@ -1,1 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/V0iccz-y)
+# Project 6
+
+## Product Vision
+
+FOR TV and movie enthusiasts WHO are unsure which streaming platform offers the best value, THE Matching System is a web-based service THAT recommends the most relevant streaming subscriptions based on a user’s favorite shows. UNLIKE generic comparison sites or articles, OUR product delivers personalized, data-driven recommendations that save users both time and money.
