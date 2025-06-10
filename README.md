@@ -1,3 +1,16 @@
+# Hard-Coded shows with their respective services
+Stranger Things (Netflix)
+The Mandalorian (Disney+)
+The Boys (Prime Video)
+Succession (HBO Max)
+Ted Lasso (Apple TV+)
+The Crown (Netflix)
+The Last of Us (HBO Max)
+Severance (Apple TV+)
+The Bear (Hulu)
+Wednesday (Netflix)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
