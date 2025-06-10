@@ -7,7 +7,8 @@ function App()
     <div className = "App">
       <header className = "App-header">
         <div className = "leftHeader">
-          <h3>PlatformMatch</h3>
+
+          <button id = "refreshButton" onClick = {() => window.location.reload(false)}>PlatformMatch</button>
         </div>
         <div className = "rightHeader"> 
           <h3>About</h3>
@@ -19,6 +20,5 @@ function App()
   );
 }
 
-<h1>Choose The Streaming Platform Perfect For You</h1>
 
 export default App;

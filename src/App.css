@@ -1,6 +1,7 @@
 body
 { 
   background-color: #02010a; 
+  z-index: 0;
 }
 
 .App-header {
@@ -15,17 +16,39 @@ body
   justify-content: space-between;
   padding: 0 2rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
+  z-index: 10;
   color: white;
 }
 
-.leftHeader {
+.leftHeader 
+{
   font-weight: bold;
   font-size: 18px;
 }
 
-.rightHeader {
+.rightHeader 
+{
   display: flex;
   gap: 4rem;
   margin-right: 4rem; 
+}
+/*The following is for the PlatformMatch button
+It will refresh the page on click and change cursor */
+#refreshButton 
+{ 
+  all: unset;
+}
+
+#refreshButton:hover 
+{ 
+  cursor: pointer;
+  color: rgb(60, 114, 208);
+}
+
+.Message 
+{ 
+  color: white;
+   align-items: center;
+   z-index: 11;
+   position: flex;
 }
