@@ -1,3 +1,7 @@
+# Prototype
+
+Has matching function based on shows you have added and is able to pick the best streaming service even with multiple shows added in
+
 # Hard-Coded shows with their respective services
 Stranger Things (Netflix)  
 The Mandalorian (Disney+)  
