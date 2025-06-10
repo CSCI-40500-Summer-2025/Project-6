@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+function App() 
+{
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className = "App">
+      <header className = "App-header">
+        <div className = "leftHeader">
+          <h3>PlatformMatch</h3>
+        </div>
+        <div className = "rightHeader"> 
+          <h3>About</h3>
+          <h3>Features</h3>
+          <h3>Share</h3>
+        </div>
       </header>
     </div>
   );
 }
+
+<h1>Choose The Streaming Platform Perfect For You</h1>
 
 export default App;
