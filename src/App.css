@@ -2,11 +2,17 @@ body
 { 
   background-color: #02010a; 
   z-index: 0;
+  color: white;
+}
+
+.App {
+  text-align: center;
+  color: white;
 }
 
 .App-header {
   background-color: #080726;
-  height: 100x;
+  height: 100px;
   width: 100%;
   position: fixed;
   top: 0;
@@ -20,35 +26,165 @@ body
   color: white;
 }
 
-.leftHeader 
-{
+.leftHeader {
   font-weight: bold;
   font-size: 18px;
+  color: white;
 }
 
-.rightHeader 
-{
+.rightHeader {
   display: flex;
   gap: 4rem;
   margin-right: 4rem; 
-}
-/*The following is for the PlatformMatch button
-It will refresh the page on click and change cursor */
-#refreshButton 
-{ 
-  all: unset;
+  color: white;
 }
 
-#refreshButton:hover 
-{ 
+.rightHeader h3 {
+  color: white;
+}
+
+#refreshButton { 
+  all: unset;
+  color: white;
+}
+
+#refreshButton:hover { 
   cursor: pointer;
   color: rgb(60, 114, 208);
 }
 
-.Message 
-{ 
+.Message { 
   color: white;
-   align-items: center;
-   z-index: 11;
-   position: flex;
+  align-items: center;
+  z-index: 11;
+  position: flex;
+}
+
+/* New styles for the recommendation functionality */
+.content-container {
+  margin-top: 120px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.input-section {
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.search-input {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #61dafb;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+  background-color: #1a1a2e;
+  color: white;
+}
+
+.add-button, .recommend-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #61dafb;
+  color: #282c34;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.add-button:hover, .recommend-button:hover {
+  background-color: #4fa8c7;
+}
+
+.shows-list {
+  background-color: #1a1a2e;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.shows-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.shows-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #16213e;
+  border-radius: 5px;
+  color: white;
+}
+
+.remove-button {
+  background: none;
+  border: none;
+  color: #ff6b6b;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.remove-button:hover {
+  color: #ff8787;
+}
+
+.recommendation-container {
+  background-color: #1a1a2e;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.reasoning {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 20px 0;
+  color: white;
+}
+
+.recommendation-details {
+  text-align: left;
+  margin-top: 20px;
+  color: white;
+}
+
+.recommendation-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recommendation-details li {
+  padding: 10px;
+  margin: 5px 0;
+  background-color: #16213e;
+  border-radius: 5px;
+  color: white;
+}
+
+.error-message {
+  color: #ff6b6b;
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  color: white;
+  margin-bottom: 15px;
 }
