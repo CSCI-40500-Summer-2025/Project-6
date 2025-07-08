@@ -12,7 +12,7 @@
 
 ---
 
-## 2. Architecture Overview (Layered Model)
+## 2. Architecture Overview 
 
 ### Layers Used:
 - **User Interface**
