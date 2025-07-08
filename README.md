@@ -56,7 +56,8 @@
 | PostgreSQL | IMDB API | Auth (JWT/OAuth) |             |
 +--------------------------------------------------------+
 
-## 4. Technologies To Be Used
+
+4. Technologies To Be Used
 
 Database: We would go use an unstructured NOSQL database due to new shows always being added into streaming service pools 
 
