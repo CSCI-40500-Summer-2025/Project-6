@@ -55,3 +55,12 @@
 |--------------------------------------------------------|
 | PostgreSQL | IMDB API | Auth (JWT/OAuth) |             |
 +--------------------------------------------------------+
+
+## 4. Technologies To Be Used
+
+Database: We would go use an unstructured NOSQL database due to new shows always being added into streaming service pools 
+
+Platform: Web brower as we feel that a mobile app would be too much of an overkill for a product such as this 
+
+Server: We plan to use a cloud provider in order to host our product with the team leaning towards the industry leaders being AWS or GCP
+
